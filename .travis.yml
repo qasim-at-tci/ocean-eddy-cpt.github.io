@@ -22,6 +22,7 @@ env:
 dist: focal
 
 install:
+  - pip install --upgrade pip
   - pip install -r requirements.txt
 
 # This is the script to build the docs on travis, then deploy
