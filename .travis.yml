@@ -32,4 +32,4 @@ script:
   - make html
   - cd ..
 
-  - doctr deploy . --built-docs doc/_build/html --deploy-branch-name master --branch-whitelist source
+  #- doctr deploy . --built-docs doc/_build/html --deploy-branch-name master --branch-whitelist source
